@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Input Tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+
+        <!--Text Box Tag-->
+        <label for="username">Enter the Details</label>
+        <input type="text" name="username" placeholder="Enter Your Username" id="username">
+    </div>
+
+    <div>
+        <!--Radio Tag-->
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+    </div>
+    
+    <div>
+        <!--CheckBox Tag-->
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <label for="subscribe">subscribe Me </label>
+    </div>
+
+    <div>
+        <!--Text Area For some comments-->
+        <textarea name="comments" id="comment" rows="5" cols="40">Enter the comments</textarea>
+    </div>
+
+    <div>
+        <!--Select DROPDOWN Menu-->
+        <select name="Fruits" id="fruit">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="cherry">Cherry</option>
+        </select>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
